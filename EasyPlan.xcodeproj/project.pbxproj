@@ -12,6 +12,7 @@
 		03894C8F1D4BCA8C003222EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03894C8D1D4BCA8C003222EA /* Main.storyboard */; };
 		03894C911D4BCA8C003222EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03894C901D4BCA8C003222EA /* Assets.xcassets */; };
 		03894C941D4BCA8C003222EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03894C921D4BCA8C003222EA /* LaunchScreen.storyboard */; };
+		03894C9C1D4BCF0E003222EA /* ListNotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03894C9B1D4BCF0E003222EA /* ListNotesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		03894C901D4BCA8C003222EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03894C931D4BCA8C003222EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03894C951D4BCA8C003222EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03894C9B1D4BCF0E003222EA /* ListNotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListNotesTableViewController.swift; path = ../ListNotesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		03894C881D4BCA8B003222EA /* EasyPlan */ = {
 			isa = PBXGroup;
 			children = (
+				03894C9B1D4BCF0E003222EA /* ListNotesTableViewController.swift */,
 				03894C891D4BCA8C003222EA /* AppDelegate.swift */,
 				03894C8B1D4BCA8C003222EA /* ViewController.swift */,
 				03894C8D1D4BCA8C003222EA /* Main.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03894C9C1D4BCF0E003222EA /* ListNotesTableViewController.swift in Sources */,
 				03894C8C1D4BCA8C003222EA /* ViewController.swift in Sources */,
 				03894C8A1D4BCA8C003222EA /* AppDelegate.swift in Sources */,
 			);
